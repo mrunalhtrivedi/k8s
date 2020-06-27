@@ -6,11 +6,11 @@ As required it is having 1 NAT, 1 Bridge Adapter ", 1 Private ( Total 3 Adapters
 
 Its simple to use this script, I have set to use "ubuntu/bionic64" Linux.
 
-How to find Bridgde Adapter device name in windows:
+How to find Bridgde Adapter device name in MS Windows:
 
-Method1 - In Windows command promt/Powershell/Git bash, use "route print" In first Interfaces section it will show all the devices names 
-Method2 - "netsh int ipv4 show interfaces"
-Method3 - use GUI
+1. Method1 - "route print" 
+2. Method2 - "netsh int ipv4 show interfaces"
+3. Method3 - or lastly use GUI
 
 You can connect to the machines as below;
 vagrant staus 
