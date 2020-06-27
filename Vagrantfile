@@ -18,7 +18,7 @@ end
     end
   end
 
-  # Install avahi on all machines
+  # Updates on all machines
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update -y
   SHELL
