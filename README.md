@@ -4,7 +4,7 @@ Deploy K8s cluster usging vagrant
 Note* You cannot remove NAT adapter from the Vagrant, cant help, but it will do your job as required. Also Bridge is not required but it wil be good to have one which you could later use it.
 
 Vagrantfile Network configuration details used;
-1. 1 x NAT (Which is default), we cannot 
+1. 1 x NAT (Which is default)
 2. 1 x Bridge Adapter 
 3. 1 x Host-only private network 
 
