@@ -22,4 +22,13 @@ To see all vagrant machines status at once
 vagrant global-status
 
 
+----------------------------
 
+Offical Ubuntu version on which can be used in here, you can also find more release information on https://releases.ubuntu.com/
+
+"Ubuntu 20.04 LTS (Focal Fossa)" -> ubuntu/focal64
+"Ubuntu 19.10 (Eoan Ermine)" -> ubuntu/eoan64
+"Ubuntu 18.04.4 LTS (Bionic Beaver)" -> ubuntu/bionic64
+"Ubuntu 16.04.6 LTS (Xenial Xerus)" -> ubuntu/xenial64 
+"Ubuntu 14.04.6 LTS (Trusty Tahr)" -> ubuntu/trusty64 
+"Ubuntu 12.04.5 LTS (Precise Pangolin)" -> ubuntu/precise64
