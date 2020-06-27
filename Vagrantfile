@@ -7,14 +7,14 @@ Vagrant.configure("2") do |config|
 		subconfig.vm.hostname = "master"
 		subconfig.vm.network "public_network", bridge: "Intel(R) Dual Band Wireless-AC 8265"
 		subconfig.vm.network "private_network", ip: "192.168.56.110", virtualbox_intnet: "VirtualBox Host-Only Ethernet Adapter"
-end
+	end
   (1..NODE_COUNT).each do |i|
     	config.vm.define "node#{i}" do |subconfig|
 		subconfig.vm.box = BOX_IMAGE
 		subconfig.vm.hostname = "node#{i}"
 		subconfig.vm.network "public_network", bridge: "Intel(R) Dual Band Wireless-AC 8265"
 		subconfig.vm.network "private_network", ip: "192.168.56.#{i+3}", virtualbox_intnet: "VirtualBox Host-Only Ethernet Adapter"
-    end
+	end
 end
 
 config.vm.provider "virtualbox" do |v|
