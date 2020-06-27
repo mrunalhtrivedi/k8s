@@ -10,7 +10,7 @@ Vagrantfile Network configuration details used;
 
 Its simple to use this script, I have set to use "ubuntu/bionic64" Linux.
 
-How to find Bridgde Adapter device name in MS Windows:
+How to find Bridge Adapter device name in MS Windows:
 
 1. Method1 - "route print" 
 2. Method2 - "netsh int ipv4 show interfaces"
