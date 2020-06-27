@@ -1,8 +1,12 @@
 # k8s
 Deploy K8s cluster usging vagrant
 
-Note* You cannot remove NAT adapter from the Vagrant, cant help, but it will do your job
-As required it is having 1 NAT, 1 Bridge Adapter ", 1 Private ( Total 3 Adapters)
+Note* You cannot remove NAT adapter from the Vagrant, cant help, but it will do your job as required. Also Bridge is not required but it wil be good to have one which you could later use it.
+
+Vagrantfile Network configuration details used;
+1. 1 x NAT (Which is default), we cannot 
+2. 1 x Bridge Adapter 
+3. 1 x Host-only private network 
 
 Its simple to use this script, I have set to use "ubuntu/bionic64" Linux.
 
