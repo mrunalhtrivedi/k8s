@@ -14,7 +14,8 @@ How to find Bridgde Adapter device name in MS Windows:
 
 1. Method1 - "route print" 
 2. Method2 - "netsh int ipv4 show interfaces"
-3. Method3 - or lastly use GUI
+3. Method3 - "Get-WMIObject Win32_networkadapter | Select-Object Name, AdapterType, InterfaceIndex | Format-List"
+3. Method4 - or lastly use GUI
 
 You can connect to the machines as below;
 vagrant staus 
