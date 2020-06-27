@@ -1,5 +1,5 @@
 # k8s
-Deploy K8s cluster usging vagrant
+Deploy K8s cluster usging vagrant (Windows only-)
 
 Note* You cannot remove NAT adapter from the Vagrant, cant help, but it will do your job as required. Also Bridge is not required but it wil be good to have one which you could later use it.
 
