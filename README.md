@@ -18,6 +18,8 @@ vagarnt ssh node2
 Try pining to systems once you connect to the any of the machine 
   ping node2.local
 
+To see all vagrant machines status at once
+vagrant global-status
 
 
 
