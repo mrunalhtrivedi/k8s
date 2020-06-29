@@ -1,5 +1,7 @@
 # k8s
-Deploy K8s cluster usging vagrant (Windows only-)
+This Vagrantfile helps to quickly deploy/create/bootstrap cluster setups. I'm using it for bootstrapping k8s clusters and nodes. Used this file for on Windows Vagrant only. But feel free to test in the Linux enviornment.
+
+Image used here in us ubuntu.
 
 Note* You cannot remove NAT adapter from the Vagrant, cant help, but it will do your job as required. Also Bridge is not required but it wil be good to have one which you could later use it.
 
@@ -23,12 +25,18 @@ vagarnt ssh master
 vagarnt ssh node2
 vagarnt ssh node2
 
+Sometime you need to have root login, so you need to use below command to enable root login.
+sudo passwd root
+su -
+
+Swap is by default disabled for this ubuntu, you could check it out by executing;
+grep Swap /proc/meminfo
+
 Try pining to systems once you connect to the any of the machine 
 "ping node2.local"
 
 To see all vagrant machines status at once
 "vagrant global-status"
-
 
 ----------------------------
 
